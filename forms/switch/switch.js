@@ -1,10 +1,10 @@
 // defining and assigning values to variables by prompting the user
-firstName = prompt('Enter your first name:')
-state = prompt('Enter your state (two letter abbreviation):')
-temperature = prompt('Enter your temperature in Fahreneit:')
+let firstName = prompt('Enter your first name:')
+let state = prompt('Enter your state (two letter abbreviation):')
+let temperature = prompt('Enter your temperature in Fahreneit:')
 
 // defining and assigning values to array
-messages2 = ['wear a warm coat, hat, scarf and gloves.', 'wear a warm coat but you won\'t need a hat, scarf, or gloves.', 'wear your warmest coat, a warm hat, a scarf, and warm gloves.', 'wear a warm coat, hat and gloves. Maybe a scarf too.', 'I have nothing to report.']
+let messages2 = ['wear a warm coat, hat, scarf and gloves.', 'wear a warm coat but you won\'t need a hat, scarf, or gloves.', 'wear your warmest coat, a warm hat, a scarf, and warm gloves.', 'wear a warm coat, hat and gloves. Maybe a scarf too.', 'I have nothing to report.']
 
 // starting switch
 switch(true)
