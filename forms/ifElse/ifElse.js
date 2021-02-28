@@ -15,6 +15,7 @@ else if (state == 'NE' && temperature >= 32 && temperature <= 50)
     console.log(`${firstName}, please ${messages[1]}`)
     
 // checking for Florida and temperture between 32 and 50 (both inclusive); then printing appropriate message    
+
 else if(state == 'FL' &&  temperature >= 32 && temperature <= 50)
     console.log(`${firstName}, please ${messages[2]}`)
     
